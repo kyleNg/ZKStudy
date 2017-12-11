@@ -12,6 +12,7 @@ public class zkClintTest {
 		
 		client.init();
 	}
+	
 	@Test
 	public void testCreate() throws Exception{
 		client.createZnode();
